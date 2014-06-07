@@ -1,0 +1,13 @@
+This is a simple graph analyzer. It is written for academical purposes and is
+NOT an example for good programming style or such a thing.
+
+Its GPL3, so its free to use, modify and distribute but the copyright stays.
+
+As you might have guessed you can execute the analyzer with
+./analyze.py
+
+The help will show you whats needed.
+
+Greetings,
+
+Lasse Schuirmann <lasse.schuirmann@gmail.com>
