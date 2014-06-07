@@ -1,4 +1,4 @@
-__author__ = 'lasse'
+# Copyright 2014 by Lasse Schuirmann, License: GPL v3
 
 import argparse
 
@@ -10,7 +10,7 @@ def get_args():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         description=__doc__)
 
-    arg_parser.add_argument('-i', '--input', nargs=1, metavar='FILE', dest='input',
+    arg_parser.add_argument(nargs=1, metavar='FILE', dest='input',
                             help='File path to parse the graph file from')
     arg_parser.add_argument('-r', '--recursion-level', nargs=1, type=int, metavar='INT', dest='recursion',
                             help='Maximum level of recursion')

@@ -1,7 +1,6 @@
+# Copyright 2014 by Lasse Schuirmann, License: GPL v3
+
 from mpl_toolkits.axisartist.axis_artist import UnimplementedException
-
-__author__ = 'lasse'
-
 
 class RawGraph:
     def __init__(self):
@@ -124,6 +123,7 @@ class RawGraph:
         res = 0
         for elem in knot:
             if int(elem) == int(key):
+                print("Warning: found self reference!")
                 res += 2
             else:
                 res += 1
