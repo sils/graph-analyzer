@@ -1,7 +1,5 @@
 # Copyright 2014 by Lasse Schuirmann, License: GPL v3
 
-from mpl_toolkits.axisartist.axis_artist import UnimplementedException
-
 class RawGraph:
     def __init__(self):
         self.knot_count = 0
